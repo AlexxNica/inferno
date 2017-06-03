@@ -26,4 +26,8 @@ jobs:
     - script: npm run lint
     - script: npm run test:browser
     - script: bash ./scripts/ci/coverage.sh
-    - script: npm run test:package
+    - stage: Build
+      node_js: '6'
+      script: 
+        - npm run build
+        - npm run test:package
