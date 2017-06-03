@@ -15,4 +15,4 @@ ensureSymlinkSync(join(PROJECT_FOLDER, 'tsconfig.json'), join(cwd, 'tsconfig.jso
 ensureSymlinkSync(join(PROJECT_FOLDER, '.npmignore'), join(cwd, '.npmignore'));
 
 ensureSymlinkSync(join(PROJECT_FOLDER, 'packages', 'inferno-vnode-flags'), join(PROJECT_FOLDER, 'node_modules', 'inferno-vnode-flags'));
-// ensureSymlinkSync(join(PROJECT_FOLDER, 'packages', 'inferno'), join(PROJECT_FOLDER, 'node_modules', 'inferno'));
+ensureSymlinkSync(join(PROJECT_FOLDER, 'packages', 'inferno'), join(PROJECT_FOLDER, 'node_modules', 'inferno'));
